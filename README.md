@@ -11,7 +11,7 @@ Curated KernelSU module collection for Redmi Note 11 (spesn) on crDroid 9.34 (An
 | **AZenith** | v5.2 (1823-bf02195-Dazzling) | Liliya2727 / https://github.com/Liliya2727/AZenith (Apache 2.0) |
 | **Zygisk Next** | 1.5.0 (843-5217106-release) | Dr-TSNG / https://github.com/Dr-TSNG/ZygiskNext |
 | **ZRAM Swap Configurator** | v3.7 | Rei Ryuki (The Fixer) / https://github.com/reiryuki/ZRAM-Swap-Configurator-Magisk-Module (MIT) |
-| **ZRAM Swap Configurator v4.0** | Interactive WebUI fork | Rei Ryuki (The Fixer) / https://github.com/reiryuki/ZRAM-Swap-Configurator-Magisk-Module (MIT) — WebUI fork by abr60 |
+| **ZRAM Swap Configurator v4.0** | Interactive WebUI fork | Rei Ryuki (The Fixer) / https://github.com/reiryuki/ZRAM-Swap-Configurator-Magisk-Module (MIT) — WebUI fork by abr60 | 
 | **systemless-hosts-KernelSU-module** | v1.2.2 | symbuzzer (avalibeyaz.com/github) / https://github.com/symbuzzer/systemless-hosts-KernelSU-module (GPL/as-is) |
 
 ---
@@ -26,6 +26,13 @@ A WebUI-based fork of reiryuki's ZRAM-Swap-Configurator. Opens from the KernelSU
 ## 🛠 Installation
 
 Each module can be installed via `ksud module install /path/to/module.zip`.
+
+Example (via ADB):
+
+```bash
+su -c '/data/adb/ksud module install /sdcard/Download/zram-v4/ZRAM-Swap-Configurator-v4.0.zip'
+adb reboot
+```
 
 Example (via ADB):
 
