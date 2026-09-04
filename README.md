@@ -1,6 +1,6 @@
 # my-ksu-module-kit
 
-Curated KernelSU module collection for Redmi Note 11 (spes) on crDroid 9.34 (Android 13) with KernelSU-Next v1.1.1.
+Curated KernelSU module collection for Redmi Note 11 (spesn) on crDroid 9.34 (Android 13) with KernelSU-Next v1.1.1.
 
 ---
 
@@ -26,7 +26,7 @@ su -c '/data/adb/ksud module install /sdcard/Download/AZenith-5.2.zip'
 adb reboot
 ```
 
-All modules are compatible with KernelSU-Next v1.1.1 / driver 12851 on the Redmi Note 11 (spes, SM6225/Kryo 265, 4 GB RAM).
+All modules are compatible with KernelSU-Next v1.1.1 / driver 12851 on the Redmi Note 11 (spesn, SM6225/Kryo 265, 4 GB RAM).
 
 ---
 
@@ -38,7 +38,7 @@ This repo and its README are published under the [MIT License](LICENSE). Each mo
 
 ## 📬 Contact
 
-Maintained for personal use on a Redmi Note 11 (spes). Questions or issues? Open an issue on the relevant upstream repo linked above.
+Maintained for personal use on a Redmi Note 11 (spesn). Questions or issues? Open an issue on the relevant upstream repo linked above.
 
 ---
 
@@ -47,7 +47,7 @@ Maintained for personal use on a Redmi Note 11 (spes). Questions or issues? Open
 ```bash
 git init
 git add .
-git commit -m "Initial: curated KernelSU modules for Redmi Note 11 spes"
+git commit -m "Initial: curated KernelSU modules for Redmi Note 11 spesn"
 git remote add origin git@github.com:abr60/my-ksu-module-kit.git
 git push -u origin main
 ```
