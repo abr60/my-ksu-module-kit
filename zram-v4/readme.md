@@ -8,9 +8,21 @@ A WebUI-based fork of reiryuki's [ZRAM-Swap-Configurator-Magisk-Module](https://
 - **Save**: persists config for next boot
 - **Defaults**: 50% of RAM (safe default); override by pre-seeding `/sdcard/optionals.prop` with `zram.resize=65%` + `zram.algo=lz4`
 
+## Releases
+
+Three v4.0 variants are published — see the [releases page](https://github.com/abr60/my-ksu-module-kit/releases) or [`CHANGELOG.md`](./CHANGELOG.md) for details and SHA-256 checksums:
+
+| Variant | Tag | Recommendation |
+|---|---|---|
+| **v3 AZenith-inspired** | `zram-v4-azenith` (latest) | ✅ **Use this one** — 3-page UI (Status/Tuning/Advanced), profiles, live calculator, `ksu.exec` fix |
+| v2 Zygisk-Next style | `zram-v4-zygisk` | Historical — has a known `ksu.exec` callback bug (status stuck at `--`) |
+| v1 Draft | `zram-v4-draft` | First iteration — minimal status card UI |
+
+All three zips are also mirrored under [`zram-v4/releases/`](./releases/).
+
 ## Installation
 ```bash
-su -c '/data/adb/ksud module install /sdcard/Download/zram-v4/ZRAM-Swap-Configurator-v4.0.zip'
+su -c '/data/adb/ksud module install /sdcard/Download/zram-v4/ZRAM-Swap-Configurator-v4.0-v3-azenith.zip'
 adb reboot
 ```
 
