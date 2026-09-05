@@ -6,7 +6,7 @@ All v4.0 snapshots are flashable via `ksud module install`. See the [releases pa
 |---|---|---|---|
 | v1 Draft | [`zram-v4-draft`](https://github.com/abr60/my-ksu-module-kit/releases/tag/zram-v4-draft) | `ZRAM-Swap-Configurator-v4.0-v1-draft.zip` | `11bd1796b24eb0f66810dfa808e80c9db7530b9348f9eac042ff740bb3095881` |
 | v2 Zygisk-Next | [`zram-v4-zygisk`](https://github.com/abr60/my-ksu-module-kit/releases/tag/zram-v4-zygisk) | `ZRAM-Swap-Configurator-v4.0-v2-zygisk.zip` | `e0d6309413731dbc643f9aeaff150fa64fdacf91f0c89083c47da497463c2f04` |
-| v3 AZenith-inspired | [`zram-v4-azenith`](https://github.com/abr60/my-ksu-module-kit/releases/tag/zram-v4-azenith) (latest) | `ZRAM-Swap-Configurator-v4.0-v3-azenith.zip` | `61bb0947b54fb6d3b73d47a80dbed7385497446d38ffa7d6067d984591acc818` |
+| v3 AZenith-inspired | [`zram-v4-azenith`](https://github.com/abr60/my-ksu-module-kit/releases/tag/zram-v4-azenith) (latest) | `ZRAM-Swap-Configurator-v4.0-v3-azenith.zip` | `36b42100ef2ebf5530f4226943946c9cdca758488e58d98bca67b5b8c6e0412e` |
 
 ---
 
