@@ -14,7 +14,7 @@ Three v4.0 variants are published — see the [releases page](https://github.com
 
 | Variant | Tag | Recommendation |
 |---|---|---|
-| **v3 AZenith-inspired** | `zram-v4-azenith` (latest) | ✅ **Use this one** — 3-page UI (Status/Tuning/Advanced), profiles, live calculator, `ksu.exec` fix |
+| **v3 AZenith-inspired** | `zram-v4-azenith` (latest, v4.1) | ✅ **Use this one** — 3-page UI (Status/Tuning/Advanced), profiles, live calculator, `ksu.exec` fix |
 | v2 Zygisk-Next style | `zram-v4-zygisk` | Historical — has a known `ksu.exec` callback bug (status stuck at `--`) |
 | v1 Draft | `zram-v4-draft` | First iteration — minimal status card UI |
 

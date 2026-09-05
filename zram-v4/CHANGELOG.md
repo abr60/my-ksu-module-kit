@@ -4,9 +4,11 @@ All v4.0 snapshots are flashable via `ksud module install`. See the [releases pa
 
 | Release | Tag | Zip | SHA-256 |
 |---|---|---|---|
-| v1 Draft | [`zram-v4-draft`](https://github.com/abr60/my-ksu-module-kit/releases/tag/zram-v4-draft) | `ZRAM-Swap-Configurator-v4.0-v1-draft.zip` | `11bd1796b24eb0f66810dfa808e80c9db7530b9348f9eac042ff740bb3095881` |
-| v2 Zygisk-Next | [`zram-v4-zygisk`](https://github.com/abr60/my-ksu-module-kit/releases/tag/zram-v4-zygisk) | `ZRAM-Swap-Configurator-v4.0-v2-zygisk.zip` | `e0d6309413731dbc643f9aeaff150fa64fdacf91f0c89083c47da497463c2f04` |
-| v3 AZenith-inspired | [`zram-v4-azenith`](https://github.com/abr60/my-ksu-module-kit/releases/tag/zram-v4-azenith) (latest) | `ZRAM-Swap-Configurator-v4.0-v3-azenith.zip` | `36b42100ef2ebf5530f4226943946c9cdca758488e58d98bca67b5b8c6e0412e` |
+| v1 Draft (v4.0) | [`zram-v4-draft`](https://github.com/abr60/my-ksu-module-kit/releases/tag/zram-v4-draft) | `ZRAM-Swap-Configurator-v4.0-v1-draft.zip` | `90ff9dde647d603c6f5488c862f0dfbbec4579a8d9768e9181559e95146d13c9` |
+| v2 Zygisk-Next (v4.0) | [`zram-v4-zygisk`](https://github.com/abr60/my-ksu-module-kit/releases/tag/zram-v4-zygisk) | `ZRAM-Swap-Configurator-v4.0-v2-zygisk.zip` | `10619023b129e13caab24edb27001d5e9480432d1287860caf496a31db22c1b3` |
+| v3 AZenith-inspired (**v4.1**) | [`zram-v4-azenith`](https://github.com/abr60/my-ksu-module-kit/releases/tag/zram-v4-azenith) (latest) | `ZRAM-Swap-Configurator-v4.0-v3-azenith.zip` | `c36d027598a1d4a0cc84e91e7bdd2fe83448b3068fbe4e5183b70ca5e9493f6e` |
+
+> **All three builds now ship `updateJson`** → [`zram-v4/update.json`](./update.json) in this repo. Installing *any* of them wires KernelSU-Next Manager to the update channel: it will auto-offer the latest build (currently v3 azenith, v4.1/versionCode 41). The v1/v2 builds stay at versionCode 40; the latest build is v4.1/41 so the channel always reports a newer version.
 
 ---
 
